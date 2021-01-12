@@ -172,13 +172,6 @@
         },
         "hooks": [ // 在这里以数组的形式定义所有消息推送回调接口
          {
-                "enable": true, // 开关，需要开启请直接把本项删除或设置为true
-                "name": "pushplus消息推送", // webhook名称，仅用于日志显示不用于实际消息推送
-                "msg_separ": "\n\n",       // 消息分隔符，推送消息时将每一条消息用两个换行符(\n)隔开
-                "method": 0,               // 请求方式,0为get,1为post,2为以json方式post
-                "url": "http://pushplus.hxtrip.com/send?token=d3bc6742714e4e31a2c3b4117e1d530e&title={title}&content={msg_simple}&template=html", 
-                }   
-         {
                 "enable": false, // 开关，需要开启请直接把本项删除或设置为true
                 "name": "server酱消息推送", // webhook名称，仅用于日志显示不用于实际消息推送
                 "msg_separ": "\n\n",       // 消息分隔符，推送消息时将每一条消息用两个换行符(\n)隔开
