@@ -182,7 +182,7 @@
                     "desp": "{msg_simple}" 
                 }
              {
-                "enable": true, // 开关，需要开启请直接把本项删除或设置为true
+                "enable": false, // 开关，需要开启请直接把本项删除或设置为true
                 "name": "pushplus消息推送", // webhook名称，仅用于日志显示不用于实际消息推送
                 "msg_separ": "\n\n",       // 消息分隔符，推送消息时将每一条消息用两个换行符(\n)隔开
                 "method": 0,               // 请求方式,0为get,1为post,2为以json方式post
